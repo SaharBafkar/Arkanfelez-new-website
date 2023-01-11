@@ -1,0 +1,12 @@
+.bgimg{
+    /* background-image: url(/assets/Fac-Pic/Resize/boreshkari.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+width: 100%;
+height:62%;
+    opacity: .37;
+}
+.op{
+    opacity: 1;
+}

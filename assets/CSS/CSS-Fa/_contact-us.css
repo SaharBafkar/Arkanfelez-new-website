@@ -1,0 +1,59 @@
+.coninp, select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+   margin-right: 328px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(8, 8, 227);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  
+  /* Style the container/contact section */
+  .container-contact-us {
+    border-radius: 5px;
+    background-color: #efecec;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .fs{
+    font-size: 24px;
+  }
+  .mt-60{
+    margin-top: 60px;
+  }

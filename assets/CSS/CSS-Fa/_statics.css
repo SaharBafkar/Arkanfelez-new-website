@@ -1,0 +1,22 @@
+/* start statics section */
+.stat-wrapper{
+    background-color: darkblue;
+    height: 250px;
+}
+.set{
+    margin-top: 40px;
+    height: 60px;
+
+}
+.count{
+    color: white;
+    font-size:20px;
+    margin: 20px;
+
+}
+.count-art{
+    font-size: 16px;
+    margin-top: 20px;
+    color:#757373;
+
+}

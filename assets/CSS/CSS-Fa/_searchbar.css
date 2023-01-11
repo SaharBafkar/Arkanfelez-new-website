@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 70%;
+  /* position: relative; */
+  display: flex;
+}
+
+.searchTerm {
+  width: 315px;
+  border: 1px solid darkblue;
+  /* border-right: none; */
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #efefef;
+  margin-top: 9px;
+  /* margin-right:900px; */
+}
+
+.searchTerm:focus{
+  color: darkblue;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid darkblue;
+  background: darkblue;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 9px;
+  margin-left:-450px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  /* position: absolute; */
+  position: sticky;
+  /* top:0; */
+  z-index: 999;
+  /* width: 100vw; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+/*****************************************************
+.course-title {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 34px;
+  color: black;
+}
+.container {
+  position: relative;
+  padding: 0 50px;
+}
+.icon-close {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  font-size: 70px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  /* background-color: #ffffff; */
+/* } */
+@font-face {
+    font-family: vazir;
+    src: url("/font/Vazirmatn-Medium.woff2");
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+  /* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+  } */
+  a {
+    text-decoration: none;
+  }
+  li,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  html,
+  body {
+    background-color: #ffffff;
+    /* width: 100%;
+    height: 100%; */
+    /* overflow: hidden; */
+    /* text-align: center; */
+  } 
+  .course-title {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 34px;
+    color: black;
+  }
+  .containersearch {
+    position: relative;
+    padding: 0 50px;
+  }
+  .icon-close {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 70px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    /* background-color: #ffffff; */
+  }
+  .icon-close:hover {
+    transform: rotate(45deg);
+  }
+  .search-input {
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    opacity: 0;
+    transform: translate(40px, 0);
+    pointer-events: none;
+    transition: all 0.7s ease-in-out;
+  }
+  .search-input .input-search {
+    color: #fff;
+    font-size: 54px;
+    border: 0;
+    background: transparent;
+    outline: 0;
+    font-weight: 200;
+  }
+  .search-input .input-search::-webkit-input-placeholder {
+    color: #eee;
+    font-size: 50px;
+  }
+  .control {
+    cursor: pointer;
+    z-index: 1000;
+
+  }
+  .control .btn-material {
+    position: absolute;
+    top: 12px;
+    width: 60px;
+    right: -326px;
+    height: 60px;
+    background-color: darkblue;
+    border-radius: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6), 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: all 0.7s linear;
+    z-index: 1000;
+
+  }
+  .control .btn-material:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 6px 6px rgba(0, 0, 0, 0.16);
+  }
+  .control  i{
+    color:#fff;
+    position: absolute;
+    top: 30px;
+    right: -311px;
+    z-index: 1000;
+
+  }
+  .search-active{
+    overflow: hidden;
+  }
+  .search-active .search-input{
+    opacity: 1;
+    z-index: 1000;
+
+  }
+  .search-active .icon-close{
+    opacity: 1;
+    transform: rotate(-90deg);
+    z-index: 1000;
+
+  }
+  .search-active .icon-close i{
+    opacity: 0;
+    z-index: 1000;
+
+  }
+  .search-active .control{
+    cursor: default;
+  }
+  .search-active .control .btn-material{
+    transform: scale(70);
+  }
+  .search-active .control  i{
+    opacity: 0;
+  }
+  .search-active .search-input{
+    right: 200px;
+  }

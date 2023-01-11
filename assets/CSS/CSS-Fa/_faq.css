@@ -1,0 +1,120 @@
+/* start FAQ section */
+.txt-right{
+  text-align: right;
+}
+.faq-section-bg {
+  /* background-image: url("/assets/img/faq.png"); */
+  /* background-color: #efefef; */
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.faq-section-wrapper .faq-right-side {
+  box-shadow: 1px 5px 15px 2px darkblue;
+  margin-top: 120px;
+  margin-right: 20px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  /* background-color: rgb(255, 255, 255); */
+}
+.faq-section-wrapper .faq-right-side h5 {
+  padding: 0%;
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-right-side h5 i {
+  font-size: 32px;
+  margin-left: 16px;
+  vertical-align: -5px;
+  color: darkblue;
+}
+.faq-section-wrapper .faq-right-side p {
+  font-size: 14px;
+  margin-right: 53px;
+  margin-top: 8px;
+  color: darkblue;
+}
+.faq-title span::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 9px;
+  right: -46px;
+}
+.faq-title span::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 9px;
+  right: 114px;
+}
+.faq-section-wrapper .faq-left-side {
+  margin-top:120px;
+  padding-right: 50px;
+}
+.faq-section-wrapper .faq-left-side .tabs {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 5px 15px 2px darkblue;
+  background-color: #a7a3a3;
+}
+.faq-section-wrapper .faq-left-side .tab {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgb(174, 168, 168);
+  box-shadow: 1px 5px 15px 2px darkblue;
+
+}
+.faq-section-wrapper .faq-left-side .tab-label {
+  padding: 16px;
+  /* background-color: rgb(184, 184, 185); */
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.faq-section-wrapper .faq-left-side .tab-label:hover {
+  color: rgb(11, 64, 169);
+}
+/* .faq-section-wrapper .faq-left-side .tab-label::after {
+  content: "\276f";
+  position: absolute;
+  display: block;
+  transition: transform .15s ease-in-out;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+  left: 50px;
+} */
+
+.faq-section-wrapper .faq-left-side .tab-content {
+  max-height: 0;
+  background-color: #fff(174, 168, 168);
+  transition: .5s ease;
+  color: black;
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content {
+  max-height: 200px;
+}
+.visi {
+  /* visibility: hidden; */
+  display: none;
+}
+.tab i {
+  position: absolute;
+  display: block;
+  top:5px;
+  left: 0;
+  width: 40px;
+  text-align: center;
+  transition: all 0.5s ease ;
+}
+
+.tabs .tab input[type="checkbox"]:checked ~ i.fa-chevron-circle-down {
+  transform: rotate(180deg);
+}

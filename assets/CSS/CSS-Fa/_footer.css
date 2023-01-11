@@ -1,0 +1,108 @@
+/* start footer section */
+.footer-section-wrapper .footer-section-bg img{
+    top: 0;
+    right: 0;
+    width:100px;
+}
+.footer-section-wrapper .footer-section-bg p{
+    text-align: center;
+    font-size: 16px;
+    
+}
+.footer-section-wrapper .footer-section-bg{
+    background-color: rgb(214, 214, 218);
+    color:rgb(82, 79, 79);
+}
+.footer-section-wrapper .footer-section-bg .ic::after{
+content: "\276f";
+  position: absolute;
+  display: block;
+  transition: transform .15s ease-in-out;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+  left: 50px;
+  }
+.footer-section-wrapper .footer-section-bg .ic i{
+    padding-left: 5px;
+}
+.social ul a {
+    padding: 13px;
+    color: darkblue;
+    transition: .5s ease;
+}
+.social ul{
+    direction: ltr;
+    text-align: right;
+    padding-top: 10px;
+}
+.social ul a:hover{
+    color:#929191;
+}
+.social .abs{
+    top: 2px;
+    left: 99px;
+    border:none;
+    padding: 2px;
+    background-color: darkblue;
+    color:#929191;
+    height: 20px;
+
+}
+.social .acount{
+    border:none;
+    /* padding: 2px; */
+    right: -53px;
+    height: 20px;
+
+}
+.social h6{
+    text-align: right;
+    right: -53px;
+    border-bottom: 2px solid rgb(170, 170, 172);
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.contact-us h5{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(170, 170, 172);
+
+}
+.useful-link{
+    padding-top: 5px;
+    padding-bottom: 11px;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(170, 170, 172);
+}
+.ic li a{
+    font-size: 16px;
+    color:rgb(65, 64, 64);
+    padding:5px;
+
+}
+.contact-us ul li {
+    direction:rtl;
+    padding: 10px;
+    color:rgb(65, 64, 64);
+}
+
+.contact-us ul i{
+    padding: 5px;
+    color:rgb(65, 64, 64);
+}
+.contact-us ul {
+    padding: 12px;
+    direction: ltr;
+
+}
+.contact-us{
+    direction: rtl;
+    text-align: right;
+    font-size: 14px;
+    right: 0;
+}
