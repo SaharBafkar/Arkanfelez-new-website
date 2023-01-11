@@ -1,0 +1,43 @@
+/* start manufacture-section  */
+.worker-intro{
+    background-color: white;
+    top:105%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    width: 70%;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    border-radius: 2px;
+    font-size: 24px;
+}
+.manufacture-wrapper{
+    background-image:url(/assets/img/vecteezy.jpg) ;
+    height: 500px;
+}
+.worker-intro span{
+    color:darkblue;
+    background-color: #aca8a8;
+    padding:5px 10px;
+}
+.worker-intro h5{
+    margin: 30px 0 60px 0;
+}
+.worker-intro a{
+    border: 2px solid darkblue;
+    color: #aca8a8;
+    font-size:18px;
+    transition: .5s linear;
+}
+.worker-intro a:hover{
+    background-color: #aca8a8;
+    color: darkblue;
+}
+@media screen and (max-width:700px){
+    .worker-intro h5{
+        margin: 30px 0 20px 0;
+        font-size: 14px;
+    }
+    .worker-intro a{
+        font-size: 12px;
+    }
+}

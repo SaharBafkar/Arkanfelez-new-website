@@ -1,0 +1,223 @@
+.section-title span {
+  position: relative;
+  display: inline-block;
+  /* font-size: 18px; */
+}
+.section-title span::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: -46px;
+}
+.section-title span::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 263px;
+}
+#spanProduct {
+  position: relative;
+  top: 9px;
+  right: 60px;
+  display: inline-block;
+}
+span.spanprod,
+span.spanemp,
+span#aboutus {
+  font-weight: bolder;
+}
+span.spanaboutus::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 125px;
+}
+span.spanvmhprod::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 15px;
+  right: -46px;
+}
+span.spanvmh::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 9px;
+  right: 230px;
+}
+span.spanvmhprod::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 328px;
+}
+span.spandar::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 200px;
+}
+span.spanhon::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 85px;
+}
+span.spancatal::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 207px;
+}
+span.spancatalv::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 184px;
+}
+span.spanprod::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 9px;
+  right: 103px;
+}
+span.spanintro::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 248px;
+}
+span.spancontact::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 126px;
+}
+span.spanvacant::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 146px;
+}
+span.spanemp::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 407px;
+}
+span.spanvahed::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 430px;
+}
+span.spancustomer::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: darkblue;
+  position: absolute;
+  top: 14px;
+  right: 308px;
+}
+span.spanq {
+  /* font-size: 18px; */
+}
+
+.card-body img {
+  width: 50px;
+  height: 100px;
+}
+.card-body {
+  padding: 0.7rem;
+}
+
+.card-body .course-title {
+  top: -3px;
+  right: 70px;
+}
+.card-body .course-title a {
+  font-size: 16px;
+}
+.card-body .course-title p {
+  font-size: 14px;
+  color: rgb(97, 97, 95);
+}
+.card {
+  box-shadow: 1px 1px 1px 1px #efefef;
+  cursor: pointer;
+}
+.card-body img {
+  margin-right: 5px;
+}
+.card-header .card-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+.card:hover .card-overlay {
+  opacity: 1;
+}
+.card-overlay p {
+  color: white;
+  font-size: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.course-wrapper {
+  /* background-color: rgb(218, 223, 223); */
+  /* background-image: url(../img/des.png); */
+  background-attachment: fixed;
+}
