@@ -1,0 +1,23 @@
+@import '_nav.css';
+@import '_contact.css';
+@import '_header.css';
+@import '_course.css';
+@import '_about-us.css';
+@import '_manu-section.css';
+@import '_statics.css';
+@import '_topic.css';
+@import '_faq.css';
+@import '_footer.css';
+@import '_modal.css';
+@import '_vacancy.css';
+/* @import '_search.css'; */
+@import '_contact-us.css';
+@import '_introduction.css';
+@import '_searchbar.css';
+
+@font-face {
+  font-family: vazir;
+  src: url(/assets/font/Vazirmatn-Medium.woff2);
+  font-weight: bolder;
+  font-style: normal;
+}
