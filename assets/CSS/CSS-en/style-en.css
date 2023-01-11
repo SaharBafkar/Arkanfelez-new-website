@@ -1,0 +1,23 @@
+@import "_nav-en.css";
+@import "_contact-en.css";
+@import "_header-en.css";
+@import "_course-en.css";
+@import "_about-us-en.css";
+@import "_manu-section-en.css";
+@import "_statics-en.css";
+@import "_topic-en.css";
+@import "_faq-en.css";
+@import "_footer-en.css";
+@import "_modal-en.css";
+@import "_vacancy-en.css";
+/* @import '_search.css'; */
+@import "_contact-us-en.css";
+@import "_introduction-en.css";
+@import "_searchbar-en.css";
+@import "_copyright.css";
+@font-face {
+  font-family: vazir;
+  src: url(/assets/font/IRANSansWeb_Medium.woff2);
+  font-weight: bolder;
+  font-style: normal;
+}
